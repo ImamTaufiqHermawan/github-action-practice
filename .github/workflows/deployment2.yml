@@ -9,7 +9,7 @@ jobs:
       - name: Install depedencies
         run: npm install
       - name: Lint
-        uses: npm run lint
+        run: npm run lint
   test:
     runs-on: ubuntu-latest
     steps:
